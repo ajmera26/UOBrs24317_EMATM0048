@@ -1,0 +1,26 @@
+The additional libraries used in the provided code, other than the standard Python libraries, are:
+
+pandas: Used for handling and manipulating the dataset in DataFrame format.
+seaborn: Used for creating advanced visualizations like histograms, scatter plots, violin plots, and heatmaps.
+matplotlib: Used for creating basic plots (e.g., scatter plots, line plots).
+scipy: Specifically, the pearsonr function is used to compute the Pearson correlation coefficient.
+sklearn (Scikit-learn): Used for creating linear regression models, splitting data into training/testing sets, and evaluating the models (via metrics like R² and MSE).
+
+
+To install the required libraries for your Python environment, you can use the following pip command:
+
+pip install requests pandas seaborn matplotlib scipy scikit-learn
+
+This command will install:
+
+requests - For making HTTP requests to fetch the COVID-19 data from the API.
+pandas - For handling and manipulating the data in DataFrame format.
+seaborn - For advanced data visualization, especially for statistical plots.
+matplotlib - For basic plotting and visualizations.
+scipy - For statistical analysis, such as correlation tests.
+scikit-learn - For machine learning tasks, including regression modeling.
+If using a Jupyter notebook, you can install these directly within the notebook by running:
+
+!pip install requests pandas seaborn matplotlib scipy scikit-learn
+
+Make sure to run this in your terminal or Jupyter environment to install the necessary packages.
