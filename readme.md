@@ -1,3 +1,12 @@
+
+Author: Harshit Ajmera  
+Course: MSc in Data Science  
+Subject: Software Development: Programming and Algorithms (SDPA)  
+Subject Code: EMATM0048  
+Github Repository link - https://github.com/ajmera26/UOBrs24317_EMATM0048  
+
+# Part 1: Software Development
+
 # Hatchery Simulation
 ## Overview
 This project simulates the operations of a fish hatchery, including managing supplies, hiring technicians, selling fish, and performing other key activities such as restocking and paying employees. The simulation is divided into quarters, and user inputs control various aspects of the hatchery’s operations.
@@ -79,3 +88,70 @@ Depreciation: Supplies lose value over time, simulating real-world conditions wh
 2. Install any necessary dependencies (if applicable).
 3. Run main.py to start the simulation.
 4. Input the required values for each quarter as prompted.
+
+# Part 2: Data Analytics -COVID-19 Data Analysis Project  
+
+## Overview  
+This project analyzes COVID-19 data using the disease.sh API. It involves data collection, cleaning, exploratory analysis, and generating insights into the pandemic's impact across various countries.  
+
+## Steps in the Analysis  
+### Step 1: Data Collection  
+We fetched the latest COVID-19 statistics for multiple countries, including:  
+
+ - Total confirmed cases
+ - Total deaths
+ - Total recoveries
+ - Active cases
+ - Population
+
+### Step 2: Data Cleaning
+The collected data was cleaned by removing missing values to ensure the dataset's integrity and accuracy for analysis.
+
+### Step 3: Exploratory Data Analysis (EDA)
+We explored the dataset through:
+
+ - Summary Statistics to understand overall trends.
+ - Distributions to analyze confirmed cases and deaths.
+ - Correlation Matrix to investigate relationships between variables.
+
+### Step 4: Asking Interesting Questions
+We formulated questions to gain deeper insights into the data:
+
+ - Population vs. Confirmed Cases: Does population size correlate with confirmed cases?
+ - Top 10 Countries by Death Rate: Which countries have the highest death rates?
+ - ecovery Rate Distribution: Which countries have the highest recovery rates?
+   
+### Step 5: Predictive Analysis
+We used linear regression to predict the number of confirmed cases and deaths based on factors like population and recovery rate.
+
+#### Key Findings
+ - Moderate Correlation: Population size and confirmed cases showed a moderate correlation.
+ - High Death Rates: Countries with poor healthcare infrastructure, like Yemen, had the highest death rates.
+ - Efficient Recoveries: Some countries achieved very high recovery rates, such as North Korea and Singapore.
+
+### Technologies Used  
+
+Python: For data processing and analysis  
+
+Libraries:
+ - pandas: Data manipulation
+ - matplotlib and seaborn: Data visualization
+ - scikit-learn: Predictive modeling
+
+### Future Work
+ - Include additional factors like healthcare infrastructure or government response.
+ - Explore time-series data for trend analysis.
+ - Improve predictive model accuracy.
+
+### How to Run
+1. Clone the repository.
+2. Install required Python packages:
+
+      pip install -r requirements.txt
+
+3. Run the scripts in sequence:
+
+      data_collection.py: Fetches data from the API.  
+      data_cleaning.py: Cleans the data for analysis.  
+      eda.py: Generates visualizations and insights.  
+      predictive_analysis.py: Builds predictive models.  
