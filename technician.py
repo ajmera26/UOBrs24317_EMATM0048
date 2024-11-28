@@ -1,3 +1,16 @@
+"""
+Author: Harshit Ajmera
+Course: MSc in Data Science
+Subject: Software Development: Programming and Algorithms (SDPA)
+Subject Code: EMATM0048
+
+Description: 
+This file defines the `Technician` class, representing a technician in the hatchery management simulation. 
+It includes attributes for the technician's name, weekly rate, and specialty, and methods for initializing a technician's details.
+"""
+
+
+
 class Technician:
     """
     A class to represent a technician.

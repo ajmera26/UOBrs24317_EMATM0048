@@ -1,3 +1,15 @@
+"""
+Author: Harshit Ajmera
+Course: MSc in Data Science
+Subject: Software Development: Programming and Algorithms (SDPA)
+Subject Code: EMATM0048
+
+Description: 
+This is the main entry point for the hatchery simulation program. It allows users to interact with the hatchery operations, 
+simulate quarters, sell fish, manage technicians, and track financials through a sequence of prompts and operations.
+"""
+
+
 from hatchery import Hatchery
 
 def main():

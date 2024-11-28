@@ -1,3 +1,15 @@
+"""
+Author: Harshit Ajmera
+Course: MSc in Data Science
+Subject: Software Development: Programming and Algorithms (SDPA)
+Subject Code: EMATM0048
+
+Description: 
+This file contains the `Hatchery` class, which handles the main operations of the hatchery, such as managing resources, 
+selling fish, restocking supplies, hiring/removing technicians, calculating costs, and simulating quarters of operation.
+"""
+
+
 from fish import Fish
 from technician import Technician
 import math

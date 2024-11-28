@@ -1,3 +1,15 @@
+"""
+Author: Harshit Ajmera
+Course: MSc in Data Science
+Subject: Software Development: Programming and Algorithms (SDPA)
+Subject Code: EMATM0048
+
+Description: 
+This file defines the `Fish` class, which represents various fish species in the hatchery simulation. 
+The class includes attributes for each species' fertilizer, feed, salt requirements, maintenance time, demand, and price.
+"""
+
+
 class Fish:
     """
     A class to represent a fish species.
